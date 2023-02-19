@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500, 700;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: hsl(0, 0%, 98%);
+
+}
+
+.logo{
+     padding-top: 10px;
+}
+
+.link-content{
+    
+    display: flex;
+    margin-left: 2cm;
+    list-style: none;
+    width: 100%;
+   
+}
+
+.link-content > li{
+    padding: 20px;
+    text-align: center;
+}
+
+.link-content > li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 8%);
+}
+
+.link-content > li span{
+    padding-left: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.dropdowns{
+    position: absolute;
+    background-color:#fff ;
+    width: 11.2%;
+    margin: 20px 0 0 0;
+    left: 9%;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px 1px rgba(107,96,96,0.24);
+    -webkit-box-shadow: 2px 3px 10px 1px rgba(107,96,96,0.24);
+    -moz-box-shadow: 2px 3px 10px 1px rgba(107,96,96,0.24);
+    padding: 0 10px 0 10px;
+    display: none;
+    transition: all 5s ease;
+    
+}
+
+#Feutures:hover .dropdowns{
+    display: block
+}
+
+/* Arrow up hover */
+#Feutures:hover #upicon{
+    transform: rotate(180deg);
+    transition: 0.2s;
+}
+
+.dropdowns > ul{
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    height: auto;
+    padding: 15px 20px 15px 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+   
+}
+
+
+.dropdowns > ul li{
+    margin: 8px 0 8px 0;
+}
+
+
+
+
+.dropdowns > ul li a{
+    margin: 5px;
+    text-align: center;
+}
+
+.dropdown2{
+    position: absolute;
+    width: 8%;
+    height: auto;
+    margin: 20px 0 0 0;
+    left: 22.5%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 3px 10px 1px rgba(107,96,96,0.24);
+    -webkit-box-shadow: 2px 3px 10px 1px rgba(107,96,96,0.24);
+    -moz-box-shadow: 2px 3px 10px 1px rgba(107,96,96,0.24);
+    display: none;
+   
+  
+}
+
+/* Display hover */
+
+#Company:hover .dropdown2{
+    display: block;
+}
+
+/* Arrow up hover */
+#Company:hover #upicon{
+    transform: rotate(180deg);
+    transition: 0.2s;
+}
+
+.dropdown2 > ul{
+    list-style: none;
+    width: 100%;
+}
+
+.dropdown2 > ul li{
+    padding: 10px;
+    text-align: start;
+}
+
+
+.form-portal{
+    margin-left: auto;
+}
+
+.form-portal > .btn-login{
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    background-color:hsl(0, 0%, 98%) ;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0 20px 0 20px;
+
+}
+
+.form-portal > .btn-register{
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    background-color:hsl(0, 0%, 98%) ;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+/* Front page */
+.front{
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.sub-tittle{
+    height: 100%;
+    padding-left: 4cm;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+}
+
+.sub-tittle > h1{
+    font-size: 80px;
+    font-weight: 1000;
+    margin: 1em 0 0.5em 0;
+
+}
+
+
+
+.sub-tittle .paragraph > p{
+    width: 100%;
+    font-size: 18px;
+    text-align: start;
+    margin: 10px;
+    
+}
+
+.img-display{
+    margin: 4em;
+    height: 100%;
+    width: 35%;
+    padding-right: 2cm;
+}
+
+.img-display > img{
+    height: 80%;
+    width: 100%;
+}
+
+#learn-more{
+    padding: 20px 30px 20px 30px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+    background-color: #000;
+    border-radius: 20px;
+    margin: 3em 0 0 0;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+#learn-more:hover{
+    background-color: transparent;
+    color: #000;
+}
+
+.brand{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 5em 0 0 0;
+}
+
+
+
